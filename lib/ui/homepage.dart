@@ -35,9 +35,7 @@ class _MainPageState extends State<MainPage> {
         ],
       ),
       body: Column(
-        children: [
-          PageTitle()
-          ],
+        children: [PageTitle()],
       ),
     );
   }
