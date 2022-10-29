@@ -12,6 +12,8 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
+    // print("current height: " + MediaQuery.of(context).size.height.toString());
+    // print("current height: " + MediaQuery.of(context).size.width.toString());
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,

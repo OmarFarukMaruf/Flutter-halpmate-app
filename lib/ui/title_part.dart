@@ -1,11 +1,12 @@
 import 'dart:ffi';
-
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:help_app/utils/dymentions.dart';
 import 'package:help_app/widgets/big_text.dart';
+import 'package:get/get.dart';
 
 class PageTitle extends StatefulWidget {
   const PageTitle({Key? key}) : super(key: key);
@@ -40,7 +41,7 @@ class _PageTitleState extends State<PageTitle> {
       children: [
         //First part tittle container
         Container(
-          height: 250,
+          height: Dymentions.container1,
           child: PageView.builder(
               controller: pageController,
               itemCount: 5,
@@ -63,13 +64,13 @@ class _PageTitleState extends State<PageTitle> {
 
         // 2nd Part of home page
         Container(
-          height: 300,
+          height: Dymentions.container2,
           child: Column(
             children: [
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(35.0),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -96,7 +97,7 @@ class _PageTitleState extends State<PageTitle> {
                   //SizedBox(width: 50),
 
                   Padding(
-                    padding: const EdgeInsets.all(35.0),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -121,7 +122,7 @@ class _PageTitleState extends State<PageTitle> {
                   ),
                   //SizedBox(width: 40),
                   Padding(
-                    padding: const EdgeInsets.all(35.0),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -153,7 +154,7 @@ class _PageTitleState extends State<PageTitle> {
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(35),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -178,7 +179,7 @@ class _PageTitleState extends State<PageTitle> {
                   ),
                   //SizedBox(width: 50),
                   Padding(
-                    padding: const EdgeInsets.all(35.0),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -203,7 +204,7 @@ class _PageTitleState extends State<PageTitle> {
                   ),
                   //SizedBox(width: 50),
                   Padding(
-                    padding: const EdgeInsets.all(35.0),
+                    padding: EdgeInsets.all(Dymentions.iconPadding),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
