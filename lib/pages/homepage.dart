@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:help_app/ui/title_part.dart';
+import 'package:help_app/pages/title_part.dart';
 import 'drawer.dart';
 
 class MainPage extends StatefulWidget {

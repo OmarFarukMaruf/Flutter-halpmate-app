@@ -27,7 +27,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                       )),
                   Text("Hello"),
@@ -71,7 +71,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                       )),
                   Text("Hello"),
@@ -115,7 +115,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                       )),
                   Text("Hello"),
@@ -159,7 +159,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                       )),
                   Text("Hello"),
@@ -203,7 +203,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                       )),
                   Text("Hello"),
@@ -247,7 +247,7 @@ class Ambulance extends StatelessWidget {
                       height: 75,
                       width: 80,
                       child: Image.asset(
-                        "assets/image/amb.png",
+                        "assets/images/amb.png",
                         fit: BoxFit.fill,
                         scale: 10,
                       )),
