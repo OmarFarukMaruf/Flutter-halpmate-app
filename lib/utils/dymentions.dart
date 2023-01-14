@@ -6,13 +6,15 @@ import 'package:get/get.dart';
 
 class Dymentions {
   static double screenHight = Get.context!.height;
-  static double screenwight = Get.context!.width;
+  static double screenWidth = Get.context!.width;
 
-  static double container1 = screenHight / 3.704;
-  static double container2 = screenHight / 3.087;
+  static double container1 = screenHight / 3.494;
+  static double container2 = screenHight / 2.315;
+  static double containerFT = screenHight / 4.63;
+  static double containerST = screenHight / 13.229;
 
-  static double iconPadding = screenHight / 26.46;
-  
+  static double iconPaddingHight = screenHight / 4.76;
+  static double iconPaddingwidth = screenWidth / 3.26;
 
-
+  static double sizeBox20 = screenHight / 46.3;
 }

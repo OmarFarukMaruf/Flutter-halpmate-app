@@ -290,7 +290,7 @@ class _PageTitleState extends State<PageTitle> {
               color: Colors.yellow,
               image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage("assets/image/amb.png"))),
+                  image: AssetImage("assets/images/amb.png"))),
         ),
         Align(
           alignment: Alignment.bottomCenter,
